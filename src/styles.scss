@@ -1,5 +1,10 @@
 /* You can add global styles to this file, and also import other style files */
+@import 'shared.style';
+
+// This one gets transformed correctly into:
+//   border-left-color: orange;
+//   border-right-color: orange;
 div.container {
-   margin-inline-start: 20px;
-   margin-inline-end: 50px;
+   border-inline-start-color: orange;
+   border-inline-end-color: orange;
 }

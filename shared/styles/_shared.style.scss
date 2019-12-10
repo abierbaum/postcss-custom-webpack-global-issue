@@ -1,0 +1,10 @@
+// This one does not get transformed and ends up as:
+//
+// margin-inline-start: 20px;
+// margin-inline-end: 20px;
+//
+div.container {
+   border: 5px solid black;
+   margin-inline-start: 20px;
+   margin-inline-end: 50px;
+}
